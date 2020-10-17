@@ -13,4 +13,8 @@ fn indexing_tuple() {
 
     assert_eq!(2, second,
         "This is not the 2nd number in the tuple!")
+
+fn main() {
+    let numbers = (1, 2, 3);
+    println!("The second number is {}", numbers.2)
 }
